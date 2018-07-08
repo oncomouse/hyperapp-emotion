@@ -1,0 +1,56 @@
+{
+	"extends": [
+		"airbnb"
+	],
+	"env": {
+		"browser": true,
+		"mocha": true
+	},
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"sourceType": "module",
+		"allowImportExportEverywhere": false
+	},
+	"globals": {
+		"process": false,
+		"APP_TITLE": false,
+		"expect": true,
+		"should": true,
+		"assert": true
+	},
+	"plugins": [
+		"chai-friendly"
+	],
+	"rules": {
+		"no-unused-expressions": 0,
+		"chai-friendly/no-unused-expressions": [
+			2,
+			{
+				"allowTaggedTemplates": true
+			}
+		],
+		"import/extensions": [
+			"error", "always", {
+				"js": "never"
+			}
+		],
+    "no-shadow": "off",
+    "semi": ["error", "never"],
+    "react/jsx-filename-extension": "off",
+		"react/no-unknown-property": "off",
+		"react/prop-types": "off"
+	},
+	"settings": {
+		"import/extensions": [
+			"js"
+		],
+		"import/resolver": {
+			"webpack": {
+				"config": "webpack.config.js"
+			}
+		},
+		"react": {
+			"pragma": "h"
+		}
+	}
+}

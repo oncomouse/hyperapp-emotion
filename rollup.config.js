@@ -35,8 +35,8 @@ export default [
     output: { file: pkg.main, format: 'cjs' },
     plugins: [
       replace({
-        'const styled = ': 'export const styled = ',
-        'export default styled': '',
+        // 'const styled = ': 'export const styled = ',
+        // 'export default styled': '',
       }),
       babel({
         exclude: ['node_modules/**'],

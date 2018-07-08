@@ -9,7 +9,8 @@
 	"parser": "babel-eslint",
 	"parserOptions": {
 		"sourceType": "module",
-		"allowImportExportEverywhere": false
+		"allowImportExportEverywhere": false,
+    "ecmaVersion": 2018
 	},
 	"globals": {
 		"process": false,

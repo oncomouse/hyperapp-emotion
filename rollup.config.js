@@ -34,10 +34,10 @@ export default [
     external: ['hyperapp', 'emotion'],
     output: { file: pkg.main, format: 'cjs' },
     plugins: [
-      replace({
+      // replace({
         // 'const styled = ': 'export const styled = ',
         // 'export default styled': '',
-      }),
+      // }),
       babel({
         exclude: ['node_modules/**'],
       }),

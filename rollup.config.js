@@ -10,7 +10,7 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      file: Object.keys(pkg.browser)[0],
+      file: 'dist/emotion.umd.js',
       format: 'umd',
       name: 'hyperappEmotion',
       globals: ['hyperapp'],

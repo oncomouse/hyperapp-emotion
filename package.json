@@ -3,10 +3,6 @@
   "version": "0.0.4",
   "main": "dist/hyperapp-emotion.cjs.js",
   "module": "dist/hyperapp-emotion.esm.js",
-  "browser": {
-    "dist/hyperapp-emotion.cjs.js": "emotion.browser.js",
-    "dist/hyperapp-emotion.esm.js": "emotion.browser.esm.js"
-  },
   "dependencies": {
     "emotion": "^9.2.5",
     "hyperapp": "^1.2.6"

@@ -34,7 +34,7 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "lint": "eslint src/**/*.js",
-    "dist:clean": "rm -r dist",
+    "dist:clean": "rm -rf dist",
     "prebuild": "npm-run-all qualityCheck dist:clean",
     "precommit": "npm-run-all qualityCheck",
     "qualityCheck": "npm-run-all lint",
